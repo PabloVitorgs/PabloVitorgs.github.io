@@ -1,0 +1,26 @@
+.cabecalho{
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+h1{
+  padding-left: 50px;
+}
+.lista{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  padding-right: 50px;
+}
+.lista a{
+  text-decoration: none;
+  color: rgb(88, 12, 12);
+  text-transform: uppercase;
+  background-color: hsl(0, 94%, 47%);
+  padding: 10px 20px;
+  border-radius: 4px;
+}
